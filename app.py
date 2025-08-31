@@ -3,9 +3,9 @@ import streamlit as st
 from tw_sentiment import analyze_text  # sənin verdiyin funksiyanı ehtiva edir
 
 st.set_page_config(page_title="Azerbaijani Text Sentiment", layout="centered")
-st.title("Azerbaijani Text Sentiment Analysis")
+st.title("Azərbaycan Dilində Mətnin Hissiyyat Analizi")
 
-user_input = st.text_area("Metn daxil edin:")
+user_input = st.text_area("Mətn daxil edin:")
 
 if st.button("Analiz et"):
     if user_input.strip() != "":
@@ -21,5 +21,6 @@ if st.button("Analiz et"):
         for label, score in scores.items():
             st.write(f"{label}: {score:.5f}")  # 5 rəqəmli kəsr hissəsi
     else:
-        st.warning("Zəhmət olmasa metn daxil edin.")
+        st.warning("Zəhmət olmasa mətni daxil edin.")
+
 
