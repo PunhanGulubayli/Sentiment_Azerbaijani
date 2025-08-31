@@ -1,0 +1,9 @@
+streamlit
+streamlit-autorefresh
+torch
+transformers
+scipy
+deep-translator
+opencv-python-headless
+fer
+numpy
