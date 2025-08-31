@@ -1,0 +1,8 @@
+streamlit
+torch
+transformers
+scipy
+deep-translator
+opencv-python
+fer
+numpy
